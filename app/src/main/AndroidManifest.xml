@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thepku">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Thepku">
+        <activity
+            android:name=".Firstpage"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Adm_report"
+            android:exported="false" />
+        <activity
+            android:name=".Stu_notification"
+            android:exported="false" />
+        <activity
+            android:name=".Adm_cancellation"
+            android:exported="false" />
+        <activity
+            android:name=".Adm_reschedule"
+            android:exported="false" />
+        <activity
+            android:name=".Adm_appdetail"
+            android:exported="false" />
+        <activity
+            android:name=".Adm_app"
+            android:exported="false" />
+        <activity
+            android:name=".Adm_reqdetail"
+            android:exported="false" />
+        <activity
+            android:name=".Adm_req"
+            android:exported="false" />
+        <activity
+            android:name=".Adm_pass"
+            android:exported="false" />
+        <activity
+            android:name=".Adm_profile"
+            android:exported="false" />
+        <activity
+            android:name=".Stu_appdetail"
+            android:exported="false" />
+        <activity
+            android:name=".Stu_app"
+            android:exported="false" />
+        <activity
+            android:name=".Stu_booking"
+            android:exported="false" />
+        <activity
+            android:name=".Stu_pass"
+            android:exported="false" />
+        <activity
+            android:name=".Stu_profile"
+            android:exported="false" />
+        <activity
+            android:name=".Adm_homepage"
+            android:exported="false" />
+        <activity
+            android:name=".Stu_homepage"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

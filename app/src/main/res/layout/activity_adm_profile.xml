@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    tools:context=".Adm_profile">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/back2"
+        android:background="#00000000"/>
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginVertical="40dp"
+        android:layout_height="wrap_content"
+        android:text="ADMIN PROFILE"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username :"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="-25dp"
+        android:text="name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Id :"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textmatrix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="-25dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="170dp"
+        android:text="Change Password"
+        android:background="#DA2C2C7A"
+        android:textColor="#FDFFFFFF"
+        android:textSize="18sp"
+        />
+
+</LinearLayout>
