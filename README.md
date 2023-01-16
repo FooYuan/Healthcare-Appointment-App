@@ -8,7 +8,7 @@ computer device in order to use the system successfully.
 -----------------------------------------------------------------------------------------
 1. Download Android Studio
 -----------------------------------------------------------------------------------------
-Step 1: Download Adnroid Studio from website https://developer.android.com/studio \
+Step 1: Download Android Studio from https://developer.android.com/studio \
 Step 2: Install it in the computer.
 
 -----------------------------------------------------------------------------------------
